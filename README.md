@@ -1,2 +1,2 @@
 # LinearSearch
-Searches through a list 
+Searches through a list using linear search
