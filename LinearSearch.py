@@ -6,12 +6,12 @@ def linear_search(alist, key):
     return -1
 
 
-alist = input('Enter the list of numbers: ')
-alist = alist.split()
-alist = [int(x) for x in alist]
+userList = input('Enter the list of numbers: ')
+userList = userList.split()
+userList = [int(x) for x in alist]
 key = int(input('The number to search for: '))
 
-index = linear_search(alist, key)
+index = linear_search(userList, key)
 if index < 0:
     print('{} was not found.'.format(key))
 else:
